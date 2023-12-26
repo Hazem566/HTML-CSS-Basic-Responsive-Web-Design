@@ -1,0 +1,41 @@
+@media screen and (max-width: 780px) {
+    .columns {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .col-bg,
+    .col-3 {
+        flex: 0 0 100%;
+    }
+    .col-1{
+        flex: 0 0 32%;
+    }
+    .col-2 {
+        flex: 0 0 63%;
+    }
+}
+@media screen and (max-width: 535px) {
+    .col-1,
+    .col-2 {
+        flex: 0 0 100%
+    }
+    body {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
